@@ -55,11 +55,19 @@
                                 <nav class="main-menu">
                                     <ul class="menu-area-main">
                                         <li class="active"><a href="#home">Home</a></li>
-                                        <li><a href="#about">About Us</a></li>
-                                        <li><a href="#fruits">Fruits</a></li>
-                                        <li><a href="#blog">Blog</a></li>
-                                        <li><a href="#contact">Contact Us</a></li>
+                                                                  
+                                        @if(User.Identity.IsAuthenticated)
+                                        {
+                                            <li><a asp-controller="Account" asp-action="Login">@User.Identity.Name</a></li>
+                                            <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+                                            <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                                        }
                                     </ul>
+                                   
                                 </nav>
                             </div>
                         </div>

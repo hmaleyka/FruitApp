@@ -1,4 +1,5 @@
 ﻿using ExamApp.Context;
+using ExamApp.Helpers;
 using ExamApp.Models;
 using ExamApp.ViewModels;
 using Microsoft.AspNetCore.Identity;
@@ -50,7 +51,7 @@ namespace ExamApp.Controllers
             }
 
 
-            //await _userManager.AddToRoleAsync(user, UserRole.Admin.ToString());
+            await _userManager.AddToRoleAsync(user, UserRole.Admin.ToString());
 
             return RedirectToAction("Login");
         }
@@ -87,8 +88,29 @@ namespace ExamApp.Controllers
                 ModelState.AddModelError("", "Username-Email or Password is incorrect");
                 return View();
             }
-
+            await _signInManager.SignInAsync(user, false);
             return RedirectToAction(nameof(Index), "Home");           
+        }
+
+        public async Task<IActionResult> CreateRole()
+        {
+            foreach (UserRole item in Enum.GetValues(typeof(UserRole)))
+            {
+                if (await _roleManager.FindByNameAsync(item.ToString()) == null)
+                {
+                    await _roleManager.CreateAsync(new IdentityRole()
+                    {
+                        Name = item.ToString(),
+                    });
+                }
+            }
+            return RedirectToAction("Index", "Home");
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
         }
     }
 }

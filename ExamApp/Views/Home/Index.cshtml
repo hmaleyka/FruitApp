@@ -1,4 +1,8 @@
-﻿<section class="slider_section">
+﻿@using ExamApp.ViewModels
+
+@model HomeVM
+
+<section class="slider_section">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -50,30 +54,18 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 margin_top_30">
-                <div class="full fr">
-                    <img class="img-responsive" src="~/images/f1.png" alt="#" />
+            @foreach (var item in Model.fruits)
+            {
+                <div class="col-md-4 margin_top_30">
+                    <div class="full fr">
+                        <img class="img-responsive" src="~/Upload/Fruit/@item.ImgUrl" alt="#" />
+                    </div>
+                    <div class="full text_align_center">
+                        <h3 class="white_font">@item.Title<br><strong class="theme_blue">@item.Subtitle</strong></h3>
+                    </div>
                 </div>
-                <div class="full text_align_center">
-                    <h3 class="white_font">Black Grapes<br><strong class="theme_blue">Fresh Fruit</strong></h3>
-                </div>
-            </div>
-            <div class="col-md-4 margin_top_30">
-                <div class="full fr">
-                    <img class="img-responsive" src="~/images/f2.png" alt="#" />
-                </div>
-                <div class="full text_align_center">
-                    <h3 class="white_font">Pineapple<br><strong class="theme_blue">Fresh Fruit</strong></h3>
-                </div>
-            </div>
-            <div class="col-md-4 margin_top_30">
-                <div class="full fr">
-                    <img class="img-responsive" src="~/images/f3.png" alt="#" />
-                </div>
-                <div class="full text_align_center">
-                    <h3 class="white_font">Bananas<br><strong class="theme_blue">Fresh Fruit</strong></h3>
-                </div>
-            </div>
+            }
+            
         </div>
     </div>
 </div>
