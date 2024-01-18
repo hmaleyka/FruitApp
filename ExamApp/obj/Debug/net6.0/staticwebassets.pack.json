@@ -7425,6 +7425,10 @@
       "PackagePath": "staticwebassets\\Manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\1140d216-57fb-435a-9ade-1ef212844e4cgettyimages-467652436.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Fruit\\1140d216-57fb-435a-9ade-1ef212844e4cgettyimages-467652436.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\19126268-0219-4e0e-b87e-4b7844beacebdownload.jpg",
       "PackagePath": "staticwebassets\\Upload\\Fruit\\19126268-0219-4e0e-b87e-4b7844beacebdownload.jpg"
     },
@@ -7441,8 +7445,16 @@
       "PackagePath": "staticwebassets\\Upload\\Fruit\\4d0d7acf-29a7-4f92-93b0-727319ecda93download.jpg"
     },
     {
+      "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\7753fabf-caad-4114-b618-03297eae7b85gettyimages-467652436.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Fruit\\7753fabf-caad-4114-b618-03297eae7b85gettyimages-467652436.jpg"
+    },
+    {
       "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\7872dac7-c25c-43f1-b5a0-d945e5193019download.jpg",
       "PackagePath": "staticwebassets\\Upload\\Fruit\\7872dac7-c25c-43f1-b5a0-d945e5193019download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\8003727b-e7de-4860-8ef2-42e7a81f5766gettyimages-467652436.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Fruit\\8003727b-e7de-4860-8ef2-42e7a81f5766gettyimages-467652436.jpg"
     },
     {
       "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\87262dbc-42aa-492e-a743-5f56f002ce08download.jpg",
@@ -7451,6 +7463,10 @@
     {
       "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\b6ab8572-1bd1-489f-a55d-218e364ece47download.jpg",
       "PackagePath": "staticwebassets\\Upload\\Fruit\\b6ab8572-1bd1-489f-a55d-218e364ece47download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\c96bdb12-5de4-48c7-a4e4-04e0b0ac479dgettyimages-467652436.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Fruit\\c96bdb12-5de4-48c7-a4e4-04e0b0ac479dgettyimages-467652436.jpg"
     },
     {
       "Id": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\css\\animate.min.css",

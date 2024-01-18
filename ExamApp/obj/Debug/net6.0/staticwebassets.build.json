@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vufPrTeCPOxadVW7jlZhW4Ib3j5AXl0ACaps/SxpUi4=",
+  "Hash": "t9RyepzW63pQrlNdrhAyu1qvdbbiRYxMpTT+QRr+Uu8=",
   "Source": "ExamApp",
   "BasePath": "_content/ExamApp",
   "Mode": "Default",
@@ -36098,6 +36098,25 @@
       "OriginalItemSpec": "wwwroot\\Manage\\vendor\\jquery-easing\\jquery.easing.min.js"
     },
     {
+      "Identity": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\1140d216-57fb-435a-9ade-1ef212844e4cgettyimages-467652436.jpg",
+      "SourceId": "ExamApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\",
+      "BasePath": "_content/ExamApp",
+      "RelativePath": "Upload/Fruit/1140d216-57fb-435a-9ade-1ef212844e4cgettyimages-467652436.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Fruit\\1140d216-57fb-435a-9ade-1ef212844e4cgettyimages-467652436.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\19126268-0219-4e0e-b87e-4b7844beacebdownload.jpg",
       "SourceId": "ExamApp",
       "SourceType": "Discovered",
@@ -36174,6 +36193,25 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Fruit\\4d0d7acf-29a7-4f92-93b0-727319ecda93download.jpg"
     },
     {
+      "Identity": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\7753fabf-caad-4114-b618-03297eae7b85gettyimages-467652436.jpg",
+      "SourceId": "ExamApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\",
+      "BasePath": "_content/ExamApp",
+      "RelativePath": "Upload/Fruit/7753fabf-caad-4114-b618-03297eae7b85gettyimages-467652436.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Fruit\\7753fabf-caad-4114-b618-03297eae7b85gettyimages-467652436.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\7872dac7-c25c-43f1-b5a0-d945e5193019download.jpg",
       "SourceId": "ExamApp",
       "SourceType": "Discovered",
@@ -36191,6 +36229,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\Fruit\\7872dac7-c25c-43f1-b5a0-d945e5193019download.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\8003727b-e7de-4860-8ef2-42e7a81f5766gettyimages-467652436.jpg",
+      "SourceId": "ExamApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\",
+      "BasePath": "_content/ExamApp",
+      "RelativePath": "Upload/Fruit/8003727b-e7de-4860-8ef2-42e7a81f5766gettyimages-467652436.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Fruit\\8003727b-e7de-4860-8ef2-42e7a81f5766gettyimages-467652436.jpg"
     },
     {
       "Identity": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\87262dbc-42aa-492e-a743-5f56f002ce08download.jpg",
@@ -36229,6 +36286,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\Fruit\\b6ab8572-1bd1-489f-a55d-218e364ece47download.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\Upload\\Fruit\\c96bdb12-5de4-48c7-a4e4-04e0b0ac479dgettyimages-467652436.jpg",
+      "SourceId": "ExamApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ad1000\\source\\repos\\ExamApp\\ExamApp\\wwwroot\\",
+      "BasePath": "_content/ExamApp",
+      "RelativePath": "Upload/Fruit/c96bdb12-5de4-48c7-a4e4-04e0b0ac479dgettyimages-467652436.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Fruit\\c96bdb12-5de4-48c7-a4e4-04e0b0ac479dgettyimages-467652436.jpg"
     }
   ]
 }

@@ -76,12 +76,12 @@ namespace ExamApp.Controllers
                 user = await _userManager.FindByNameAsync(login.EmailOrUsername);
                 if(user is null)
                 {
-                    ModelState.AddModelError("", "Username-Email or Password is incorrect");
+                    ModelState.AddModelError(string.Empty, "Username-Email or Password is incorrect");
                     return View();
                 }
             }
 
-            var result = await _signInManager.CheckPasswordSignInAsync(user, login.Password , false);
+            var result =  _signInManager.CheckPasswordSignInAsync(user, login.Password , true).Result;
 
             if(!result.Succeeded)
             {
